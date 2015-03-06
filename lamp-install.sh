@@ -5,9 +5,11 @@
 #MAINTAINER Pengfei.Shi--<shipengfei92@gmail.com>
 #
 #Replace the mysql root password for your own
-MYSQL_ROOT_PASS=omnilab
+#MYSQL_ROOT_PASS=omnilab
+MYSQL_ROOT_PASS=$1
 #Replace the mysql phpmyadmin password for your own
-MYSQL_PHPMYADMIN_PASS=0mnil@b
+#MYSQL_PHPMYADMIN_PASS=0mnil@b
+MYSQL_PHPMYADMIN_PASS=$2
 
 #Set the DNS of SJTU
 echo "nameserver 202.120.2.101" > /etc/resolv.conf
