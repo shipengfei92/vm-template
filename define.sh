@@ -30,4 +30,4 @@ cd vm-template/
 
 chmod +x lamp-install.sh
 #./lamp-install <mysql-root-password-you-want-to-set> <mysql-phpmyadmin-password-you-want-to-set>
-./lamp-install.sh omnilab 0mnil@b
+./lamp-install.sh passwd1 passwd2
