@@ -9,8 +9,8 @@
 #set your ubuntu password
 passwd ubuntu<<EOF
 #password
-novaSJTU
-novaSJTU
+passwd
+passwd
 EOF
 #Allow remote connection by password
 sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
